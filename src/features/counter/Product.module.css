@@ -1,0 +1,33 @@
+.toolbar {
+  position: fixed;
+  padding: 15px;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: aquamarine;
+  z-index: 1;
+  display: flex;
+}
+
+.emptyText {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.toolbar > div:first-of-type {
+  flex-grow: .5;
+  margin-right: 15px;
+}
+
+.row {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 16px;
+}
+

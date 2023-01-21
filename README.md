@@ -6,15 +6,14 @@ Other tools include [Material UI](https://mui.com/) and dummy images from [place
 
 I though about saving state in Firebase but decided that was overkill.
 
-## To run the app
+## Running the app
 
-In the project directory, enter: `npm start`
+To run the app, enter: `npm start` in the project directory.
 
-this will run the app.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Notes
 
 The instructions said pseudo-code, but with modern frameworks why not just prototype?
 
-Live refresh is currently enabled with short-polling via a custom hook (thanks [joshwcomeau](https://www.joshwcomeau.com/snippets/react-hooks/use-interval/)!)
+Live refresh of product data is currently enabled with short-polling via a custom hook (thanks [joshwcomeau](https://www.joshwcomeau.com/snippets/react-hooks/use-interval/)!). It doesn't do much as the data is hard coded, but the logic is there, and opening the console will document the refresh calls being made.

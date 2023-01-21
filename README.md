@@ -8,7 +8,9 @@ I though about saving state in Firebase but decided that was overkill.
 
 ## Running the app
 
-To run the app, enter: `npm start` in the project directory.
+Run `git clone https://github.com/ethan-sletteland/resio.git`, and then enter the project directory (`/resio`)
+
+Run `npm i` to install dependencies, then to run the app, enter: `npm start`.
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
